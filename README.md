@@ -1,3 +1,3 @@
 # Counter
- Make colors dynamic
- Use of linear background
+### Make colors dynamic
+### Use of linear background
