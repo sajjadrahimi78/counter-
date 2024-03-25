@@ -1,0 +1,75 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: rgb(189, 189, 189);
+  background: radial-gradient(
+    circle,
+    rgba(189, 189, 189, 1) 0%,
+    rgba(70, 147, 252, 1) 75%
+  );
+}
+
+.decrement {
+  background-color: rgb(255, 43, 43);
+  color: #eeeeee;
+}
+
+.increment {
+  background-color: green;
+  color: #eeeeee;
+}
+
+.counter {
+  font-size: 2rem;
+}
+
+.container div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.counter_value {
+  color: rgb(78, 78, 78);
+  font-weight: 700;
+}
+
+.green {
+  color: green;
+  font-weight: 700;
+}
+
+.red {
+  color: red;
+  font-weight: 700;
+}
+
+.btn {
+  padding: 1.3rem;
+  border: 0;
+  border-radius: 100%;
+  font-size: 2rem;
+}
+
+.btn:first-child,
+.btn:last-child {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
